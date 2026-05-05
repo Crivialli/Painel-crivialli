@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import 'tailwindcss';
+@import 'tailwind-animations';
+
+@layer utilities {
+  /* Ocultar barra de rolagem para Chrome, Safari e Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Ocultar barra de rolagem para Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE e Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
