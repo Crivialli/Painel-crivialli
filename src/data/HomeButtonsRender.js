@@ -43,6 +43,6 @@ export const buttons = [
     icon: BsCalendar2Check,
     external: true,
     type: "link",
-    url: "http://192.168.20.75:3000/",
+    url: "https://reservas-de-salas.vercel.app/",
   },
 ];
